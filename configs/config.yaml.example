@@ -1,1 +1,23 @@
+# Project-level defaults
+project:
+  name: "course-rpi-cm5-ai-starter"
+  venv_path: "${REPO_ROOT}/.venv"
 
+# Camera configuration
+camera:
+  default_resolution: [1920, 1080]
+  default_fps: 30
+  output_directory: "${REPO_ROOT}/artifacts/captures"
+  enable_hdr: false
+  annotate_timestamp: true
+
+# GPIO templates
+gpio:
+  led_pin: 18
+  button_pin: 23
+  debounce_seconds: 0.05
+
+# Diagnostics
+diagnostics:
+  log_dir: "${REPO_ROOT}/logs"
+  enable_system_summary: true
