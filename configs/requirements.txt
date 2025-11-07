@@ -1,1 +1,11 @@
+# Core tooling
+rich==13.9.2
+typer==0.12.5
 
+# Hardware-friendly libraries (work on Raspberry Pi OS Bookworm)
+gpiozero==1.6.2
+psutil==5.9.8
+opencv-python-headless==4.10.0.84
+
+# Optional cloud integrations
+python-dotenv==1.0.1
